@@ -34,7 +34,7 @@ export default function Home() {
 
             <div className="relative h-full min-h-[300px] lg:min-h-[400px] rounded-2xl overflow-hidden">
               <Image
-                src="/nyc.jpeg"
+                src="/nycbw.png"
                 alt="Sports Marketing"
                 fill
                 className="object-cover"
