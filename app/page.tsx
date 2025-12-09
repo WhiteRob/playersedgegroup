@@ -62,7 +62,6 @@ export default function Home() {
 
           <div className="max-w-4xl mx-auto">
             <div className="bg-white rounded-2xl p-10 shadow-lg">
-              <h3 className="text-2xl font-bold mb-6 text-gray-900">Our Mission</h3>
               <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
                 <p>
                   PlayersEdge Group is a digital media and affiliate marketing company specializing in
