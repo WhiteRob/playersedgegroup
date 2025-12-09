@@ -34,10 +34,10 @@ export default function Home() {
 
             <div className="relative h-full min-h-[300px] lg:min-h-[400px] rounded-2xl overflow-hidden">
               <Image
-                src="/nycbw.png"
+                src="/nyc.jpeg"
                 alt="Sports Marketing"
                 fill
-                className="object-cover"
+                className="object-cover grayscale"
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
             </div>
@@ -165,68 +165,68 @@ export default function Home() {
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
             {/* Partner Logos */}
-            <div className="bg-white border border-gray-200 rounded-lg p-6 flex items-center justify-center hover:shadow-lg hover:border-[#00d038]/40 transition-all">
+            <div className="bg-white border border-gray-200 rounded-lg p-6 flex items-center justify-center hover:shadow-lg hover:border-[#00d038]/40 transition-all group">
               <div className="relative w-full h-16">
                 <Image
                   src="/partner1.png"
                   alt="Partner 1"
                   fill
-                  className="object-contain"
+                  className="object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
                 />
               </div>
             </div>
 
-            <div className="bg-white border border-gray-200 rounded-lg p-6 flex items-center justify-center hover:shadow-lg hover:border-[#00d038]/40 transition-all">
+            <div className="bg-white border border-gray-200 rounded-lg p-6 flex items-center justify-center hover:shadow-lg hover:border-[#00d038]/40 transition-all group">
               <div className="relative w-full h-16">
                 <Image
                   src="/partner2.png"
                   alt="Partner 2"
                   fill
-                  className="object-contain"
+                  className="object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
                 />
               </div>
             </div>
 
-            <div className="bg-white border border-gray-200 rounded-lg p-6 flex items-center justify-center hover:shadow-lg hover:border-[#00d038]/40 transition-all">
+            <div className="bg-white border border-gray-200 rounded-lg p-6 flex items-center justify-center hover:shadow-lg hover:border-[#00d038]/40 transition-all group">
               <div className="relative w-full h-16">
                 <Image
                   src="/partner3.png"
                   alt="Partner 3"
                   fill
-                  className="object-contain"
+                  className="object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
                 />
               </div>
             </div>
 
-            <div className="bg-white border border-gray-200 rounded-lg p-6 flex items-center justify-center hover:shadow-lg hover:border-[#00d038]/40 transition-all">
+            <div className="bg-white border border-gray-200 rounded-lg p-6 flex items-center justify-center hover:shadow-lg hover:border-[#00d038]/40 transition-all group">
               <div className="relative w-full h-16">
                 <Image
                   src="/partner4.png"
                   alt="Partner 4"
                   fill
-                  className="object-contain"
+                  className="object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
                 />
               </div>
             </div>
 
-            <div className="bg-white border border-gray-200 rounded-lg p-6 flex items-center justify-center hover:shadow-lg hover:border-[#00d038]/40 transition-all">
+            <div className="bg-white border border-gray-200 rounded-lg p-6 flex items-center justify-center hover:shadow-lg hover:border-[#00d038]/40 transition-all group">
               <div className="relative w-full h-16">
                 <Image
                   src="/partner5.png"
                   alt="Partner 5"
                   fill
-                  className="object-contain"
+                  className="object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
                 />
               </div>
             </div>
 
-            <div className="bg-white border border-gray-200 rounded-lg p-6 flex items-center justify-center hover:shadow-lg hover:border-[#00d038]/40 transition-all">
+            <div className="bg-white border border-gray-200 rounded-lg p-6 flex items-center justify-center hover:shadow-lg hover:border-[#00d038]/40 transition-all group">
               <div className="relative w-full h-16">
                 <Image
                   src="/partner6.png"
                   alt="Partner 6"
                   fill
-                  className="object-contain"
+                  className="object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
                 />
               </div>
             </div>
